@@ -5,6 +5,8 @@ Make sure to add and push the pkl or text file of your scraped html (this is spe
 
 This repository is for exploring text using Requests, BeautifulSoup, and spaCy.  An article will be scraped from the web and then tokens and lexems will be found from it.  
 
+After tokens and lexems are found, the sentences in the article will be scored by how many of the most common tokens and lexems they contain.  These scores will be kept in a list and histograms will be made to show the scores' frequencies.  
+
 ## How to Install and Run the Project
 
 First you must clone the project to your local machine.
